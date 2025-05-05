@@ -1,1 +1,1 @@
-YWRkIENvbmZpZy5pbmkNCmFkZCBDb25maWcuanNvbg0KYWRkIG1vZC5pbmkNCmFkZCBSZXRyYW5zbGF0ZWQuZGxsDQphZGQgZGlzay9zb25pYzIwMTNfMC9ldmVudC9ldmVudF9zZXFfZXIucGFj
+c:/Program Files (x86)/Steam/steamapps/common/Sonic Lost World/_modding/Scripts/UpdateServer/Retranslated\mod_files.txt
