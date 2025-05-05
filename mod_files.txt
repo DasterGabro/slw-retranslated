@@ -1,1 +1,5 @@
-c:/Program Files (x86)/Steam/steamapps/common/Sonic Lost World/_modding/Scripts/UpdateServer/Retranslated\mod_files.txt
+add Config.ini
+add Config.json
+add mod.ini
+add Retranslated.dll
+add disk/sonic2013_0/event/event_seq_er.pac
