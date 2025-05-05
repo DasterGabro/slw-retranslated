@@ -1,0 +1,234 @@
+{
+    "Groups": [
+        {
+            "Name":"General",
+            "DisplayName":"General",
+            "Elements":[
+                {
+                    "Name":"Language",
+                    "DisplayName":"Main Language",
+                    "Description":[
+                        "Default language."
+                    ],
+                    "Type":"LangEnum",
+                    "MinValue":null,
+                    "MaxValue":null,
+                    "DefaultValue":-1
+                }
+            ]
+        },
+        {
+            "Name":"Cutscenes",
+            "DisplayName":"Cutscenes",
+            "Elements":[
+                {
+                    "Name":"Voices",
+                    "Description":[
+                        "Voices language used in cutscenes."
+                    ],
+                    "DisplayName":"Voices",
+                    "Type":"LangEnum",
+                    "MinValue":null,
+                    "MaxValue":null,
+                    "DefaultValue":0
+                },
+                {
+                    "Name":"Subtitles",
+                    "Description":[
+                        "Subtitles language used in cutscenes.",
+                        "",
+                        "English - Retranslated is based on Windii's translation."
+                    ],
+                    "DisplayName":"Subtitles",
+                    "Type":"LangRetranslatedEnum",
+                    "MinValue":null,
+                    "MaxValue":null,
+                    "DefaultValue":-2
+                }
+            ]
+        },
+        {
+            "Name":"UI",
+            "DisplayName":"UI",
+            "Elements":[
+                {
+                    "Name":"Menus",
+                    "Description":[
+                        "Menus language."
+                    ],
+                    "DisplayName":"Menus",
+                    "Type":"LangEnum",
+                    "MinValue":null,
+                    "MaxValue":null,
+                    "DefaultValue":-1
+                },
+                {
+                    "Name":"Text",
+                    "Description":[
+                        "Hint Rings",
+                        "Auto uses Game Menus"
+                    ],
+                    "DisplayName":"Text",
+                    "Type":"LangEnum",
+                    "MinValue":null,
+                    "MaxValue":null,
+                    "DefaultValue":-1
+                }
+            ]
+        },
+        {
+            "Name":"Voices",
+            "DisplayName":"Voices - During gameplay",
+            "Elements":[
+                {
+                    "Name":"Sonic",
+                    "Description":[
+                        ".",
+                        "Auto uses Cutscenes Voices"
+                    ],
+                    "DisplayName":"Sonic",
+                    "Type":"LangEnum",
+                    "MinValue":null,
+                    "MaxValue":null,
+                    "DefaultValue":0
+                },
+                {
+                    "Name":"Bosses",
+                    "Description":[
+                        "What voice Bosses will use during Gameplay.",
+                        "Auto uses Cutscenes Voices"
+                    ],
+                    "DisplayName":"Bosses",
+                    "Type":"LangEnum",
+                    "MinValue":null,
+                    "MaxValue":null,
+                    "DefaultValue":0
+                },
+                {
+                    "Name":"Wisps",
+                    "Description":[
+                        "What voice Wisps will use during Gameplay.",
+                        "Auto uses Cutscenes Voices"
+                    ],
+                    "DisplayName":"Wisps",
+                    "Type":"LangEnum",
+                    "MinValue":null,
+                    "MaxValue":null,
+                    "DefaultValue":0
+                }
+            ]
+        }
+    ],
+    "Enums": {
+        "LangEnum": [
+            {
+                "DisplayName":"Auto",
+                "Value":-1,
+                "Description":[
+                    "Automatically set to Main Language"
+                ]
+            },
+            {
+                "DisplayName":"English",
+                "Value":1,
+                "Description":[
+                    "Set to English"
+                ]
+            },
+            {
+                "DisplayName":"Japanese",
+                "Value":0,
+                "Description":[
+                    "Set to Japanese"
+                ]
+            },
+            {
+                "DisplayName":"French",
+                "Value":2,
+                "Description":[
+                    "Set to French"
+                ]
+            },
+            {
+                "DisplayName":"German",
+                "Value":3,
+                "Description":[
+                    "Set to German"
+                ]
+            },
+            {
+                "DisplayName":"Italian",
+                "Value":4,
+                "Description":[
+                    "Set to Italian"
+                ]
+            },
+            {
+                "DisplayName":"Spanish",
+                "Value":5,
+                "Description":[
+                    "Set to Spanish"
+                ]
+            }
+        ],
+        "LangRetranslatedEnum": [
+            {
+                "DisplayName":"Auto",
+                "Value":-1,
+                "Description":[
+                    "Automatically set to Main Language"
+                ]
+            },
+            {
+                "DisplayName":"English - Retranslated",
+                "Value":-2,
+                "Description":[
+                    "Set to Windii's English translation."
+                ]
+            },
+            {
+                "DisplayName":"English",
+                "Value":1,
+                "Description":[
+                    "Set to English"
+                ]
+            },
+            {
+                "DisplayName":"Japanese",
+                "Value":0,
+                "Description":[
+                    "Set to Japanese"
+                ]
+            },
+            {
+                "DisplayName":"French",
+                "Value":2,
+                "Description":[
+                    "Set to French"
+                ]
+            },
+            {
+                "DisplayName":"German",
+                "Value":3,
+                "Description":[
+                    "Set to German"
+                ]
+            },
+            {
+                "DisplayName":"Italian",
+                "Value":4,
+                "Description":[
+                    "Set to Italian"
+                ]
+            },
+            {
+                "DisplayName":"Spanish",
+                "Value":5,
+                "Description":[
+                    "Set to Spanish"
+                ]
+            }
+        ]
+    },
+    "IniFile":"Config.ini"
+}
