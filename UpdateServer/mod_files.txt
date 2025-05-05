@@ -1,0 +1,5 @@
+add Config.ini
+add Config.json
+add mod.ini
+add Retranslated.dll
+add disk/sonic2013_0/event/event_seq_er.pac
