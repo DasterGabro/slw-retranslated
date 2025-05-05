@@ -1,1 +1,1 @@
-IyBSZXRyYW5zbGF0ZWQgdjENCi0tLSBIRVJFIC0tLQ0KDQo=
+c:/Program Files (x86)/Steam/steamapps/common/Sonic Lost World/_modding/Scripts/UpdateServer/Retranslated\changelog.md
